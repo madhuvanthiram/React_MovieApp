@@ -1,38 +1,71 @@
 .App {
-  text-align: center;
+padding:20px;
+
+float:left;
+color:black;
+text-align: center;
+width:25%;
+}
+.MovieList .Card
+{
+  width: '30rem';
+  display:'block';
+  margin:'auto';
+
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.Navbar
+{
+margin:10px;
+text-align: center;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+.Navbar li
+{
+
+display:block;
+padding:5px;
+
+
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Dropdown
+{
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+ color:black;
 }
 
-.App-link {
-  color: #61dafb;
+/* On screens that are 996px or less */
+@media screen and (max-width: 1125px) 
+{
+
+.App
+{
+  display:flex;
+
+  width:50%;
+   
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+    
+    
+   
+
+

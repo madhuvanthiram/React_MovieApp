@@ -30,15 +30,19 @@ const Details = (props) => {
         <Button variant="primary"style={{margin:'20px'}} onClick={Home}>Home</Button> 
         
 
-<Table striped bordered hover responsive="sm" size="sm">
+<Table striped bordered hover responsive="sm"  size="sm" >
   <thead>
-  
+ 
   </thead>
   <tbody>
+ <tr>
+ <td> <img src={process.env.PUBLIC_URL + "/images/"+ movieitemlist.image} alt="moviedetails"/></td>
+ </tr>
     <tr>
-     
+  
       <td><b>Name</b></td>
       <td>{movieitemlist.name}</td>
+      
      
     </tr>
     <tr>

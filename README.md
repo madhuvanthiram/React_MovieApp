@@ -1,12 +1,11 @@
 # React Movie App
 
-This a movie app build using React Hook.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This a movie app built using React Hooks.This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
  ## Features
  
-- List Movies from the API
-- Search Movies based on genre/Year or both
-- View details about Movies 
-
+- List Movies from the API [https://sometimes-maybe-flaky-api.gdshive.io]
+- Search Movies based on Genre,Year or both
+- click movie tilte to view more details
 
 
 ## Prerequisite
